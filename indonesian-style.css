@@ -1,0 +1,69 @@
+:root {
+    --primary-color: #b8441b;
+    --secondary-color: #d85a25;
+    --accent-color: #f9c74f;
+    --light-bg: #ffe5cc;
+}
+
+header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.hero {
+    background: linear-gradient(rgba(184, 68, 27, 0.7), rgba(216, 90, 37, 0.7)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23b8441b" width="1200" height="600"/><circle cx="200" cy="100" r="80" fill="%23d85a25" opacity="0.3"/><circle cx="1000" cy="500" r="120" fill="%23d85a25" opacity="0.2"/></svg>');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text h2 {
+    color: var(--primary-color);
+}
+
+.about-image {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+}
+
+.menu h2, .testimonials h2 {
+    color: var(--primary-color);
+}
+
+.menu-item h3 {
+    color: var(--primary-color);
+}
+
+.menu-item .price {
+    color: var(--secondary-color);
+}
+
+.cta-button {
+    background: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.cta-button:hover {
+    background: #f5d76e;
+}
+
+.contact {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.testimonial {
+    border-left-color: var(--secondary-color);
+}
+
+.testimonial-author {
+    color: var(--primary-color);
+}
+
+.stars {
+    color: var(--accent-color);
+}
+
+.menu {
+    background: var(--light-bg);
+}
+
+h3[style*="color"] {
+    color: var(--primary-color) !important;
+}
